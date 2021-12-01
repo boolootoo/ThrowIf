@@ -1,8 +1,7 @@
 using System;
-using System.Collections.Generic;
 using Xunit;
 
-namespace BooLooTwo.Tests
+namespace BooLooToo.Tests
 {
     public static class ArgumentBlankTests
     {

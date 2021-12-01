@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace BooLooTwo.Tests
+namespace BooLooToo.Tests
 {
     public static class ArgumentNotDefinedTests
     {
