@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowIf", "ThrowIf.csproj", "{505EADB7-B190-469E-B2C6-D43485B8B160}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowIf", "ThrowIf\ThrowIf.csproj", "{505EADB7-B190-469E-B2C6-D43485B8B160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowIf.Tests", "..\ThrowIf.Tests\ThrowIf.Tests.csproj", "{0E9AB762-3217-4EA4-AAD2-E2B2041D4356}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowIf.Tests", "\ThrowIf.Tests\ThrowIf.Tests.csproj", "{0E9AB762-3217-4EA4-AAD2-E2B2041D4356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
