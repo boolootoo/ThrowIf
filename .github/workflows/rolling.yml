@@ -1,4 +1,4 @@
-name: .NET
+name: Rolling build + test
 
 on:
   push:
