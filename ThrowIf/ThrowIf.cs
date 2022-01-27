@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace BooLooToo
+namespace Boolootoo
 {
     /// <summary>
     /// Static helper class to enforce argument correctness by throwing when an argument is not suitable for a method.

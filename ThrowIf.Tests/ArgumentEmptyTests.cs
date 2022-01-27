@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Xunit;
 
-namespace BooLooToo.Tests
+namespace Boolootoo.Tests
 {
     public static class ArgumentEmptyTests
     {

@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowIf", "ThrowIf\ThrowIf.csproj", "{505EADB7-B190-469E-B2C6-D43485B8B160}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowIf.Tests", "ThrowIf.Tests\ThrowIf.Tests.csproj", "{0E9AB762-3217-4EA4-AAD2-E2B2041D4356}"
-staEndProject
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
