@@ -10,6 +10,12 @@
     <Version>1.0.0</Version>
     <Company>Boolootoo</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>  
+    <PackageTags>Guard;Exceptions;Throw</PackageTags>
+    <Description>
+      A small helper library for .NET to throw if an argument does not meet specified criteria.
+
+      Similar to contract programming or "Guard" classes but a bit more informative as to what it will do.      
+    </Description>  
   </PropertyGroup>
-  
 </Project>
