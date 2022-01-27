@@ -2,8 +2,8 @@ name: Publish NuGet release
 
 on:
   create:
-    branches: 
-      - release/**
+    tag: 
+      - '*.*.'
 
 jobs:
   build:
