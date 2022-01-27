@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace BooLooToo.Tests
+namespace Boolootoo.Tests
 {
     public static class ArgumentBlankTests
     {

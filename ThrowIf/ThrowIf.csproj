@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>ThrowIf</PackageId>
+    <PackageId>Boolootoo.ThrowIf</PackageId>
     <Version>1.0.0</Version>
     <Company>Boolootoo</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
