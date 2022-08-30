@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Boolootoo
 {
@@ -14,7 +15,7 @@ namespace Boolootoo
         /// <param name="argument">The <see cref="Object"/> being checked.</param>
         /// <param name="nameOfArgument">Name of the argument being passed.</param>
         /// <exception cref="ArgumentNullException">If the <paramref name="argument"/> is null.</exception>
-        public static void ArgumentNull(object argument, string nameOfArgument)
+        public static void ArgumentNull([NotNull] object argument, string nameOfArgument)
         {
             if (argument == null)
                 throw new ArgumentNullException(nameOfArgument);
@@ -110,7 +111,7 @@ namespace Boolootoo
         /// <param name="argument">The <see cref="String"/> being checked.</param>
         /// <param name="nameOfArgument">Name of the argument being passed.</param>
         /// <exception cref="ArgumentException">If the <paramref name="argument"/> is whitespace or <see cref="ArgumentNullException"/> if it is null.</exception>
-        public static void ArgumentBlank(string argument, string nameOfArgument)
+        public static void ArgumentBlank([NotNull] string argument, string nameOfArgument)
         {
             ThrowIf.ArgumentNull(argument, nameOfArgument);
 
@@ -124,7 +125,7 @@ namespace Boolootoo
         /// <param name="argument">The <see cref="String"/> being checked.</param>
         /// <param name="nameOfArgument">Name of the argument being passed.</param>
         /// <exception cref="ArgumentException">If the <paramref name="argument"/> is empty or <see cref="ArgumentNullException"/> if it is null.</exception>
-        public static void ArgumentEmpty(string argument, string nameOfArgument)
+        public static void ArgumentEmpty([NotNull] string argument, string nameOfArgument)
         {
             ThrowIf.ArgumentNull(argument, nameOfArgument);
 
@@ -138,7 +139,7 @@ namespace Boolootoo
         /// <param name="argument">The <see cref="ICollection"/> being checked.</param>
         /// <param name="nameOfArgument">Name of the argument being passed.</param>
         /// <exception cref="ArgumentException">If the <paramref name="argument"/> is empty or <see cref="ArgumentNullException"/> if it is null.</exception>
-        public static void ArgumentEmpty(ICollection argument, string nameOfArgument)
+        public static void ArgumentEmpty([NotNull] ICollection argument, string nameOfArgument)
         {
             ThrowIf.ArgumentNull(argument, nameOfArgument);
 
